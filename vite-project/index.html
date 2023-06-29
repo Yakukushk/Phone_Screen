@@ -8,6 +8,8 @@
     <title>Iphone Application</title>
   </head>
   <body>
+<!--  Soon Uncomment-->
+<!--  <button id="orientation-toggle" onclick="toggleOrientation()">Toggle Orientation</button>-->
 <div class="phone">
   <div class="screen"></div>
   <div class="icons">
@@ -89,20 +91,20 @@
     <div class="v-app_row5"></div>
   </div>
 
-  <div class="sim">
-    <h3>Play</h3>
-  </div>
-  <div class="notch">
+
+  <div class="v-notch">
     <div class="camera"></div>
     <div class="speaker"></div>
-    <div class="battery"></div>
+
 
   </div>
 
-  <div class="v-time" id="current-time-2"></div>
+  <img src="img/battery.png" alt="Battery" class="v-battery-icon">
   <div class="v-status-icons">
-    <img src="img/wifi.png" alt="Wi-Fi" class="wifi-icon">
-    <img src="img/battery.png" alt="Battery" class="battery-icon">
+    <img src="img/wifi.png" alt="Wi-Fi" class="v-wifi-icon">
+    <img src="img/signal.png" alt="Signal" class="v-signal-icon">
+    <div class="v-time" id="current-time-2"></div>
+
   </div>
 
 </div>
@@ -120,7 +122,24 @@
     return number.toString().padStart(2, "0");
   }
 
-  setInterval(updateTime, 1000); 
+  setInterval(updateTime, 1000);
+
+  //Proccessing Code with Orientation
+  //Soon Uncomment
+  // let isLandscape = false;
+  //
+  // function toggleOrientation() {
+  //   let phone = document.querySelector('.phone');
+  //   let phoneLandscape = document.querySelector('.phone_ver');
+  //
+  //   isLandscape = !isLandscape;
+  //
+  //   phone.style.display = isLandscape ? 'none' : 'block';
+  //   phoneLandscape.style.display = isLandscape ? 'block' : 'none';
+  // }
+
+
+
 </script>
   </body>
 </html>
