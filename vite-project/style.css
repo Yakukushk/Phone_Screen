@@ -98,7 +98,7 @@ html,body {
     border-radius: 15px;
     box-shadow: 0px 5px 5px #33333340;
     cursor: pointer;
-    transform: rotate(90deg); /* Поворот иконок на 90 градусов */
+    transform: rotate(90deg);
     transition: transform 400ms ease-in-out;
 }
 
@@ -107,7 +107,7 @@ html,body {
 .v-app_row3:hover,
 .v-app_row4:hover,
 .v-app_row5:hover {
-    transform: scale(0.8) rotate(90deg); /* Масштабирование и поворот иконок при наведении */
+    transform: scale(0.8) rotate(90deg);
 }
 .v-app:nth-child(1) {
     background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS55hCWYd7tXT9WKAuuWYylwY_0EH_SaJK922WH_ebklw&s");
