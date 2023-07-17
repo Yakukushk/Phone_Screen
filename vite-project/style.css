@@ -2,6 +2,56 @@ html,body {
     height:100%;
 }
 
+
+
+.button-4 {
+    appearance: none;
+    background-color: #FAFBFC;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #24292E;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    list-style: none;
+    padding: 6px 16px;
+    position: relative;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+
+}
+
+.button-4:hover {
+    background-color: #F3F4F6;
+    text-decoration: none;
+    transition-duration: 0.1s;
+}
+
+.button-4:disabled {
+    background-color: #FAFBFC;
+    border-color: rgba(27, 31, 35, 0.15);
+    color: #959DA5;
+    cursor: default;
+}
+
+.button-4:active {
+    background-color: #EDEFF2;
+    box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+    transition: none 0s;
+}
+
+.button-4:focus {
+    outline: 1px transparent;
+}
+
+.button-4:before {
+    display: none;
+}
+
+.button-4:-webkit-details-marker {
+    display: none;
+}
 .phone {
     margin: auto;
     border: 12px solid black;
@@ -315,9 +365,7 @@ html,body {
     font-family: "Comic Sans MS";
     font-weight: bold;
     padding-right: 6vh;
-
     left: 15px;
-
     color: #000000;
 }
 
@@ -347,7 +395,7 @@ html,body {
     z-index:100;
     width: 20px;
     height: 20px;
-    padding-bottom: 67px;
+    padding-bottom: 75px;
     margin-top: 3vh;
     transform: translate(-50%, -50%) rotate(90deg);
 }
@@ -356,28 +404,17 @@ html,body {
     width: 25px;
     height: 20px;
     padding-bottom: 4vh;
-    margin-top: 6vh;
+    margin-top: 50px;
     transform: translate(-50%, -50%) rotate(90deg);
 }
-.v-battery-icon{
-    z-index:100;
-    transform: translate(-50%, -50%) rotate(90deg);
-    margin-left: 305px;
-    margin-top: 13vh;
-    margin-bottom: 5px;
-    right: 20px;
-    width: 20px;
-    height: 20px;
 
-
-}
 .v-time{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(90deg);
     font-size: 15px;
-    padding-bottom: 4vh;
+    padding-bottom: 33px;
     margin-top: 25px;
     font-family: "Comic Sans MS";
     font-weight: bold;
@@ -391,4 +428,50 @@ html,body {
     margin-right: 5px;
 
 }
-
+.txt{
+    padding-top: 42px;
+    margin-left: 6px;
+    font-family: "Calibri";
+    color: #d9d9d9;
+    font-size: 11px;
+    font-style: normal;
+}
+.txt_2{
+    padding-top: 42px;
+    margin-left: 3px;
+    font-family: "Calibri";
+    color: #d9d9d9;
+    font-size: 11px;
+    font-style: normal;
+}
+.txt_3{
+    padding-top: 42px;
+    margin-left: 6px;
+    font-family: "Calibri";
+    color: #d9d9d9;
+    font-size: 11px;
+    font-style: normal;
+}
+.txt_4, .txt_5, .txt_6, .txt_7, .txt_8{
+    padding-top: 42px;
+    margin-left: 2px;
+    font-family: "Calibri";
+    color: #d9d9d9;
+    font-size: 11px;
+    font-style: normal;
+}
+.txt_9{
+    padding-top: 42px;
+    font-family: "Calibri";
+    color: #d9d9d9;
+    font-size: 11px;
+    font-style: normal;
+}
+.txt_10{
+    padding-top: 42px;
+    font-family: "Calibri";
+    color: #d9d9d9;
+    margin-left: 9px;
+    font-size: 11px;
+    font-style: normal;
+}
